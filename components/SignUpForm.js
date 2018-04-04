@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import { FormLabel, FormInput, Button } from 'react-native-elements';
 import axios from 'axios';
 
-const ROOT_URL = 'https://us-central1-fresh-rampart-102021.cloudfunctions.net';
+const ROOT_URL = 'https://.cloudfunctions.net';
 
 class SignUpForm extends Component {
   state = { phone: '' };
